@@ -1,0 +1,4 @@
+# concurrent
+# tesserocr
+pdf2image
+Flask
