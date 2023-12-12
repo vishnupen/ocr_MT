@@ -76,4 +76,5 @@ def ocr_function(doc_path):
     # print(f'Performed test with {i} threads and took {str(total_time)} time')
     return final_text
 
-ocr_function("/content/Mouri Tech LLC - Agreement - Highlighted.pdf")
+res = ocr_function("/content/Mouri Tech LLC - Agreement - Highlighted.pdf")
+print(res)
