@@ -76,4 +76,4 @@ def ocr_function(doc_path):
     # print(f'Performed test with {i} threads and took {str(total_time)} time')
     return final_text
 
-# ocr_function("D:/aiAURA_DCAP/FAS/Bonaventure FMO.pdf")
+ocr_function("/content/Mouri Tech LLC - Agreement - Highlighted.pdf")
