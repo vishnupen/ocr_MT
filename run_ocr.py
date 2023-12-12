@@ -40,7 +40,7 @@ def ocr_function(doc_path):
         # Setup Queue
         for _ in range(num_threads):
             print(_)
-            tesserocr_queue.put(tesserocr.PyTessBaseAPI(path="/usr/local/include"))
+            tesserocr_queue.put(tesserocr.PyTessBaseAPI(path="/usr/local/lib/python3.10/dist-packages"))
 
 
         # Perform OCR using ThreadPoolExecutor
